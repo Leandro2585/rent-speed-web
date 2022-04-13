@@ -15,8 +15,26 @@ export const { styled, getCssText, globalCss, prefix, css } = createStitches({
       title: `#47474D`,
       text: `#7A7A80`,
       details: `#AEAEB3`,
+      heroTitle: `#FFFFFF`,
       buttonText: `#FFFFFF`,
       shape: `#EBEBF0`,
+      buttonTextHover: `#DDD`
+    },
+    sizes: {
+      '100vw': '100vw',
+      '100vh': '100vh',
+      '50p': `50%`,
+      '80': `5rem`,
+      '292': `18.25rem`,
+      '332': `20.75rem`,
+      '416': `26rem`,
+      '500': `31.25rem`,
+      '540': `33.75rem`,
+      '616': `38.5.rem`
+    },
+    lineHeights: {
+      '30': `1.875rem`,
+      '54': `3.375rem`
     },
     space: {
       '0': `0px`,
@@ -27,6 +45,12 @@ export const { styled, getCssText, globalCss, prefix, css } = createStitches({
       '16': `1rem`,
       '24': `1.5rem`,
       '32': `2rem`,
+      '64': `4rem`, 
+      '120': `7.5rem`,
+      '140': `8.75`,
+      '160': `10rem`,
+      '226': `14.125rem`,
+      '264': `16.5rem`
     },
     radii: {
       full: `99999px`,
@@ -39,6 +63,11 @@ export const { styled, getCssText, globalCss, prefix, css } = createStitches({
       archivo500: `Archivo_Medium`,
       archivo600: `Archivo_Bold`
     },
+    fontSizes: {
+      '18': `1.125rem`,
+      '20': `1.25rem`,
+      '54': `3.375rem`,
+    }
   },
   utils: {
     paddingX: (value: ScaleValue<'space'>) => ({
