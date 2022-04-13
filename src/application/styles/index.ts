@@ -1,6 +1,6 @@
 import { createStitches, ScaleValue } from '@stitches/react';
 
-export const { styled, getCssText, globalCss } = createStitches({
+export const { styled, getCssText, globalCss, prefix, css } = createStitches({
   theme: {
     colors: {
       primary: `#DC1637`,
@@ -33,8 +33,11 @@ export const { styled, getCssText, globalCss } = createStitches({
       default: `5px`,
     },
     fonts: {
-      default: `Archivo`,
-      inter: `Inter `
+      default: `Inter_Regular`,
+      inter500: `Inter_Medium`,
+      inter600: `Inter_Bold`,
+      archivo500: `Archivo_Medium`,
+      archivo600: `Archivo_Bold`
     },
   },
   utils: {

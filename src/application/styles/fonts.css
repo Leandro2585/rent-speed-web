@@ -1,0 +1,39 @@
+/* archivo medium */
+@font-face { 
+  font-family: 'Archivo_Medium';
+  font-style: normal;
+  src:  url('../../../public/fonts/archivo/archivo-v9-latin-500.woff') format('woff'),
+        url('../../../public/fonts/archivo/archivo-v9-latin-500.woff2') format('woff2');
+}
+
+/* archivo bold */
+@font-face { 
+  font-family: 'Archivo_Bold';
+  font-style: normal;
+  src:  url('../../../public/fonts/archivo/archivo-v9-latin-600.woff') format('woff'),
+        url('../../../public/fonts/archivo/archivo-v9-latin-600.woff2') format('woff2');
+}
+
+/* inter regular */
+@font-face { 
+  font-family: 'Inter_Regular';
+  font-style: normal;
+  src:  url('../../../public/fonts/inter/inter-v8-latin-regular.woff') format('woff'),
+        url('../../../public/fonts/inter/inter-v8-latin-regular.woff2') format('woff2');
+}
+
+/* inter medium */
+@font-face { 
+  font-family: 'Inter_Medium';
+  font-style: normal;
+  src:  url('../../../public/fonts/inter/inter-v8-latin-500.woff') format('woff'),
+        url('../../../public/fonts/inter/inter-v8-latin-500.woff2') format('woff2');
+}
+
+/* inter bold */
+@font-face { 
+  font-family: 'Inter_Bold';
+  font-style: normal;
+  src:  url('../../../public/fonts/inter/inter-v8-latin-600.woff') format('woff'),
+        url('../../../public/fonts/inter/inter-v8-latin-600.woff2') format('woff2');
+}

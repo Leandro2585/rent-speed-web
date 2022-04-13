@@ -1,15 +1,10 @@
-import { globalCss } from '.';
+import { globalCss } from '.'
+import '@application/styles/fonts.css'
 
-export const globalStyles = globalCss({
-  '@font-face': [{
-    fontFamily: 'Archivo',
-    fontWeight: 'bold',
-    src: "url('../assets/fonts/archivo/Archivo-Regular.ttf') format('truetype')"
-  }],
-
+const globalStyles = globalCss({
   '*': {
-    // backgroundImage: "url('../../../public/images/audi.png')",
-    fontSize: 128,
-    fontFamily: 'Sans Serif'
+    fontFamily: '$default'
   }
 })
+
+globalStyles()
